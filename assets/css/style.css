@@ -680,7 +680,7 @@ section {
     font-weight: 700;
     margin-bottom: 20px;
     padding-bottom: 0;
-    color: #000;
+    color: #f40000;
 }
 .duties .icon-box {
     padding: 30px;
@@ -708,7 +708,7 @@ section {
     font-size: 18px;
 }
 .duties .description {
-    font-size: 20px;
+    font-size: 25px;
     line-height: 28px;
     margin-bottom: 0;
 }
