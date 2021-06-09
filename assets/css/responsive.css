@@ -1,0 +1,523 @@
+/* Small devices (portrait phones, 576px and up) */
+@media (min-width: 320px) {
+    /* === CSS for Common Text === */
+    .heading.md > h2 {
+        font-size: 21px;
+        line-height: 30px;
+    }
+    .heading.md > h3 {
+        font-size: 18px;
+        line-height: 26px;
+    }
+    .heading.md > h2 {
+        font-weight: 800;
+    }
+    .heading.md > h3 {
+        font-weight: 500;
+    }
+    .font-16 {
+        font-size: 13px;
+    }
+    .font-18,
+    .static-content-section p {
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .font-24 {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    /* === End CSS for Common Text === */
+
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-top: 0rem;
+        padding-bottom: 0rem;
+    }
+    .navbar-expand-lg .navbar-nav > li > .nav-link {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    /* === CSS for Our Products section === */
+    .products-section > .product-item .product-details {
+        padding-left: 10px;
+    }
+    .content-blocks ol li + li, .content-blocks ul li + li {
+        margin-top: 6px;
+    }
+    /* === End CSS for Our Products section === */
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    /* === CSS for Common Text === */
+     .heading.md > h2 {
+        font-size: 24px;
+        line-height: 32px;
+    }
+    .heading.md > h3 {
+        font-size: 22px;
+        line-height: 30px;
+    }
+    .font-16 {
+        font-size: 14px;
+    }
+    .font-18,
+    .static-content-section p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .font-24 {
+        font-size: 18px;
+        line-height: 26px;
+    }
+    /* === End CSS for Common Text === */
+    .btn {
+        height: 40px;
+    }
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+
+    /* === CSS for Header section === */
+    .fixed-top {
+        position: fixed!important;
+        z-index: 1030!important;
+        top:30px;
+    }
+    .header-section .fixed-top {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .header-section.fix-header .navbar {
+        padding-top: 12px;
+        padding-bottom: 12px;
+        top:0;
+    }
+    /* .header-section.fix-header .navbar-brand img {
+        max-width: 85%;
+    } */
+    /* === End CSS for Header section === */
+
+    /* === Inner Page Common CSS === */
+    .inner-pages-wrapper {
+        padding-top: 128px;
+    }
+    /* === End Inner Page Common CSS === */
+}
+
+@media (min-width: 1024px) {
+    /* === CSS for Common Text === */
+    .heading.md > h2 {
+        font-size: 32px;
+        line-height: 40px;
+    }
+    .heading.md > h3 {
+        font-size: 28px;
+        line-height: 40px;
+    }
+    .font-16 {
+        font-size: 16px;
+    }
+    .font-18,
+    .static-content-section p {
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .font-24 {
+        font-size: 24px;
+        line-height: 36px;
+    }
+    /* === End CSS for Common Text === */
+
+    /* === CSS for Header section === */
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    .navbar-expand-lg .navbar-nav .nav-item:last-child .nav-link {
+        padding-right: 0;
+    }
+    /* === End CSS for Header section === */
+
+    /* #banner-section {
+        background-attachment: fixed;
+    } */
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+}
+@media (max-width: 1280px) {
+}
+
+@media (max-width: 1350px) {
+}
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) { }
+
+@media (max-width: 1100px) {
+    /* === CSS for Header section === */
+    .navbar-brand {
+        max-width: 210px;
+    }
+    .navbar-brand img {
+        width: 100%;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: 12px;
+        padding-left: 12px;
+    }
+    /* === End CSS for Header section === */
+    
+    .navbar-brand {
+        font-size: 22px;
+    }
+    #banner-section h1 {
+        font-size: 38px;
+        line-height: 46px;
+    }
+
+    /* === CSS for Our Product Page === */
+    /* === End CSS for Our Product Page === */
+}
+
+@media (max-width: 1024px) {
+    /* === CSS for Contact section === */
+    .contact-block {
+        padding: 0;
+    }
+    /* === End CSS for Contact section === */
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) { 
+
+    #banner-section {
+        /* padding-top: 0; */
+        margin-top: 0;
+        background-size: cover;
+    }
+    #banner-section h1 {
+        max-width: 800px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    #banner-section .hero-img img {
+        width: 50%;
+    }
+    /* === CSS for Header section === */
+    .navbar {
+        padding: 1rem;
+    }
+    .navbar-collapse {
+        height: auto !important;
+        overflow-y: auto;
+        max-height: none;
+        background-color: rgba(87, 147, 207,.97);
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 100%;
+        border: 0;
+        padding: 0 40px 0 80px;
+        z-index: 9;
+        opacity: 0;
+        pointer-events: none;
+        -webkit-transition: all 0.6s cubic-bezier(0.26, 0.55, 0.49, 0.96);
+        -moz-transition: all 0.6s cubic-bezier(0.26, 0.55, 0.49, 0.96);
+        -ms-transition: all 0.6s cubic-bezier(0.26, 0.55, 0.49, 0.96);
+        transition: all 0.6s cubic-bezier(0.26, 0.55, 0.49, 0.96);
+        -webkit-transition-delay: .2s;
+        -moz-transition-delay: .2s;
+        -ms-transition-delay: .2s;
+        transition-delay: .2s;
+    }
+    .navbar-toggler, 
+    .navbar-collapse, 
+    .navbar-collapse.collapse, 
+    .navbar-collapse.collapsing, 
+    .navbar-collapse.collapse.show {
+        display: block!important;
+    }
+    .navbar-collapse.show {
+        opacity: 1;
+        pointer-events: all;
+        bottom: 0;
+        padding: 100px 40px;
+        -webkit-transition-delay: 0;
+        -moz-transition-delay: 0;
+        -ms-transition-delay: 0;
+        transition-delay: 0;
+    }
+    .navbar-toggler[aria-expanded="true"] {
+        position: fixed;
+        right: 15px;
+        margin: 0;
+        z-index: 999;
+    }
+    .navbar-show {
+        height: 100%;
+        overflow: hidden;
+    }
+    .navbar-toggler .toggle-icon {
+        display: block;
+        height: 2px;
+        width: 28px;
+        background-color: #5793ce;
+        -webkit-transition: all 0.4s 0s cubic-bezier(0.26, 0.55, 0.49, 0.96);
+        -moz-transition: all 0.4s 0s cubic-bezier(0.26, 0.55, 0.49, 0.96);
+        -ms-transition: all 0.4s 0s cubic-bezier(0.26, 0.55, 0.49, 0.96);
+        transition: all 0.4s 0s cubic-bezier(0.26, 0.55, 0.49, 0.96);
+    }
+    .navbar-toggler .toggle-icon + .toggle-icon {
+        margin-top: 6px;
+    }
+    .navbar-toggler[aria-expanded="true"] .toggle-icon:first-child {
+        transform: rotate(45deg);
+        opacity: 1;
+    }
+    .navbar-toggler[aria-expanded="true"] .toggle-icon:last-child {
+        transform: rotate(-45deg);
+        opacity: 1;
+        margin-top: -10px;
+    }
+    .navbar-toggler[aria-expanded="true"] .toggle-icon {
+        background-color: #fff;
+        opacity: 0;
+        -webkit-transition-delay: 0.8s;
+        -moz-transition-delay: 0.8s;
+        -ms-transition-delay: 0.8s;
+        transition-delay: 0.8s;
+    }
+    .navbar-toggler:focus, .navbar-toggler:hover {
+        outline: 0;
+    }
+    .nav-item .nav-link {
+        color: #fff;
+    }
+    .navbar-nav .nav-item + .nav-item {
+        margin-top: 10px;
+    }
+    .navbar-nav li a {
+        transform: translateY(10px);
+        opacity: 0;
+        -webkit-transition: all 0.6s cubic-bezier(0.26, 0.55, 0.49, 0.96);
+        -moz-transition: all 0.6s cubic-bezier(0.26, 0.55, 0.49, 0.96);
+        -ms-transition: all 0.6s cubic-bezier(0.26, 0.55, 0.49, 0.96);
+        transition: all 0.6s cubic-bezier(0.26, 0.55, 0.49, 0.96);
+        -webkit-transition-delay: 0.6s;
+        -moz-transition-delay: 0.6s;
+        -ms-transition-delay: 0.6s;
+        transition-delay: 0.6s;
+    }
+    .navbar-collapse.show .navbar-nav li a {
+        opacity: 1;
+        transform: translateY(0);
+        -webkit-transition-delay: 0.6s;
+        -moz-transition-delay: 0.6s;
+        -ms-transition-delay: 0.6s;
+        transition-delay: 0.6s;
+    }
+    .navbar-collapse.show .navbar-nav li + li a {
+        -webkit-transition-delay: 0.7s;
+        -moz-transition-delay: 0.7s;
+        -ms-transition-delay: 0.7s;
+        transition-delay: 0.7s;
+    }
+    .navbar-collapse.show .navbar-nav li + li + li a {
+        -webkit-transition-delay: 0.8s;
+        -moz-transition-delay: 0.8s;
+        -ms-transition-delay: 0.8s;
+        transition-delay: 0.8s;
+    }
+    .navbar-collapse.show .navbar-nav li + li + li + li a {
+        -webkit-transition-delay: 0.9s;
+        -moz-transition-delay: 0.9s;
+        -ms-transition-delay: 0.9s;
+        transition-delay: 0.9s;
+    }
+    .navbar-collapse.show .navbar-nav li + li + li + li + li a {
+        -webkit-transition-delay: 1s;
+        -moz-transition-delay: 1s;
+        -ms-transition-delay: 1s;
+        transition-delay: 1s;
+    }
+    .hs-has-sub-menu > .nav-link:before {
+        border-bottom: 1px solid #fff;
+        border-right: 1px solid #fff;
+    }
+    .hs-sub-menu {
+        background: transparent;
+        padding: 10px 20px 0;
+    }
+    /* === End CSS for Header section === */
+
+    /* === CSS for Banner section === */
+    .fixed-top {
+        position: relative;
+        z-index: 1030;
+        background: #fff;
+        -webkit-box-shadow: 0px -4px 10px 0px rgba(0, 0, 0, 0.2);
+        -moz-box-shadow: 0px -4px 10px 0px rgba(0, 0, 0, 0.2);
+        -ms-box-shadow: 0px -4px 10px 0px rgba(0, 0, 0, 0.2);
+        box-shadow: 0px -4px 10px 0px rgba(0, 0, 0, 0.2);
+    }
+    .contact-section:after {
+        content: '';
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        top:0;
+        background: rgba(0,0,0,.5);
+        z-index: 2;
+    }
+    .contact-section > .container {
+        z-index: 9;
+    }
+    .contact-bg-text h2 {
+        color: #8b8b8b;
+    }
+    .contact-block {
+        color: #fff;
+    }
+    /* === End CSS for Banner section === */
+
+    /* CSS for Home about section */
+    .abt-section,
+    .static-content-section {
+        padding: 60px 0;
+    }
+    /* End CSS for Home about section */
+
+    /* === CSS for Our Products section === */
+    .products-section-heading {
+        padding-top: 40px;
+    }
+    .product-item {
+        padding: 80px 0 50px;
+    }
+    /* === End CSS for Our Products section === */
+
+    /* === CSS for Counting Blokcs Gradient Section === */
+    .counter-sections {
+        padding: 50px 0;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    .counter-text p {
+        font-size: 18px;
+        line-height: 18px;
+    }
+    /* === End CSS for Counting Blokcs Gradient Section === */
+
+    /* === CSS for Email Section  === */
+    .email-block {
+        padding: 20px;
+    }
+    .email-box-bg-text {
+        font-size: 40px;
+        line-height: 58px;
+        left: 0px;
+        right: 0px;
+        bottom: 0px;
+        top: 0px;
+    }
+    .email-heading-block .heading h2 {
+        font-size: 28px;
+    }
+    .email-block .email-heading-block {
+        width: 230px;
+        padding: 20px 15px;
+    }
+    .email-field-block {
+        width: calc(100% - 230px);
+        padding-left: 15px;
+    }
+    /* === End CSS for Email Section  === */
+
+    /* === Inner Page Common CSS === */
+     .inner-pages-wrapper {
+        padding-top: 20px;
+    }
+    /* === End Inner Page Common CSS === */
+    
+}
+
+@media (max-width: 991.98px) and (orientation: landscape) {
+    .navbar-collapse.show {
+        padding: 80px 50px;
+    }
+}
+@media (max-width: 575.8px) and (orientation: landscape) {
+    .navbar-collapse.show {
+        padding: 50px;
+    }
+}
+
+@media (max-width: 575.8px) and (orientation: portrait) {
+}
+
+@media (max-width: 1024px) and (orientation: landscape) {
+}
+
+@media (max-width: 1024px) and (orientation: portrait) {
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+    body {
+        font-size: 14px;
+    }
+    .btn {
+        padding: .375rem 1.2rem;
+        font-size: 12px;
+    }
+    /* CSS for Home about section */
+    .abt-section,
+    .contact-section,
+    .counter-sections,
+    .static-content-section {
+        padding: 35px 0;
+    }
+    /* End CSS for Home about section */
+    
+    .navbar-brand {
+        font-size: 20px;
+    }
+    #banner-section h1 {
+        font-size: 28px;
+        line-height: 36px;
+    }
+    #banner-section {
+        margin-top: 0px;
+    }
+    section {
+        padding: 30px 0;
+    }
+    .section-title h2 {
+        font-size: 32px;
+    }
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    /* === CSS for Header section === */
+    .navbar-brand {
+        max-width: 180px;
+    }
+    /* === End CSS for Header section === */
+
+    .header-top-info * {
+        font-size: 10px;
+    }
+}
