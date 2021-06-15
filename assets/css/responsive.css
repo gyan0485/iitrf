@@ -301,7 +301,7 @@
         outline: 0;
     }
     .nav-item .nav-link {
-        color: #fff;
+        color: #000;
     }
     .navbar-nav .nav-item + .nav-item {
         margin-top: 10px;
