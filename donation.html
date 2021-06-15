@@ -671,14 +671,27 @@
 
                         <div id="Cheque" class="tab-pane fade show active pt-3">
                             <form role="form" onsubmit="event.preventDefault()">
-                                <div class="form-group"> <label for="username">
+                                    <div class="form-group"> <label for="cardNumber">
                                         <h6>Cheque Amount</h6>
-                                    </label> <input type="text" name="username" placeholder="Cheque Amount" required class="form-control "> </div>
+                                    </label>
+                                    <div class="input-group"> <input type="number" name="cardNumber" placeholder="Cheque Amount" class="form-control " required>
+                                <div class="input-group-append"> 
+                                    <span class="input-group-text text-muted">
+                                     <i class="fas fa-money-check-alt mx-1"></i> 
+                                     
+                                       </span> 
+                                   </div>
+                                    </div>
+                                </div>
                                 <div class="form-group"> <label for="cardNumber">
                                         <h6>Cheque number</h6>
                                     </label>
                                     <div class="input-group"> <input type="number" name="cardNumber" placeholder="Cheque Number" class="form-control " required>
-                                <div class="input-group-append"> <span class="input-group-text text-muted"> <i class="fab fa-cc-visa mx-1"></i> <i class="fab fa-cc-mastercard mx-1"></i> <i class="fab fa-cc-amex mx-1"></i> </span> </div>
+                                <div class="input-group-append"> 
+                                    <span class="input-group-text text-muted">
+                                      <i class="fas fa-money-check mx-1"></i> 
+                                       </span> 
+                                   </div>
                                     </div>
                                 </div>
                                  <div class="form-group"> <label for="username">
@@ -765,7 +778,7 @@
                               </div>
                               <div class="modal-footer">
                                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                                <button type="button" class="btn btn-primary">Save changes</button>
+                               
                               </div>
                             </div>
                           </div>
@@ -803,11 +816,12 @@
                               </div>
                               <div class="modal-footer">
                                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                                <button type="button" class="btn btn-primary">Save changes</button>
+                                
                               </div>
                             </div>
                           </div>
-                        </div>            
+                        </div> 
+          
                     </div> <!-- End -->
 
                         <div id="zelle" class="tab-pane fade pt-3">
