@@ -22,7 +22,7 @@
 body {
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
-    color:#000000;
+    color:#000;
     line-height: 1.5;
     font-weight: 400;
     margin: 0 auto;
@@ -143,6 +143,11 @@ a:focus {
 header * {
     font-size: 14px;
 }
+
+.nav-link
+{
+    padding: .5rem .8rem;
+}
 .nav-item .nav-link:after {
     content: '';
     width: 0;
@@ -202,7 +207,7 @@ header * {
 /* === End CSS for Header section === */
 
 /* === CSS for Banner section === */
-#banner-section {
+#banner-section-governance {
     width: 100%;
     background-image: url(../images/banner.jpg);
     background-repeat: no-repeat;
@@ -212,12 +217,30 @@ header * {
     padding: 14% 0;
     /* min-height: 500px; */
 }
-#banner-section h1 {
+#banner-section-donation {
+    width: 100%;
+    background-image: url(../images/donation.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    margin-top: 90px;
+    padding: 14% 0;
+    /* min-height: 500px; */
+}
+#banner-section-governance h1 {
     margin: 0 0 20px 0;
     font-size: 48px;
     font-weight: 700;
     line-height: 56px;
     color: #fff;
+}
+
+#banner-section-donation h1 {
+    margin: 0 0 20px 0;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+    color: #000;
 }
 /*#banner-section .hero-img img {
     width: 70%;
@@ -760,7 +783,9 @@ section {
 .duties .icon-box-darkPink .icon i {
     color: #9c009e;
 }
-
+.duties .icon-box-black .icon i {
+    color: #000;
+}
 .duties .icon-box:hover {
     transform: translateY(-5px);
 }
@@ -796,4 +821,167 @@ section {
     font-size: 15px;
     color: #848484;
     margin-left: 80px;
+}
+
+      .theme-blue {
+        color: #427bb8;
+      }
+      .theme-orange {
+        color: #cc851c;
+      }
+      .theme-green {
+       color: #8ab042;
+      }
+      .theme-grey {
+        color: #666666;
+      }
+      .theme-white {
+        color: #fff;
+      }
+      .theme-background-blue {
+        background-color: #427bb8;
+        color: #fff;
+      }
+      .theme-background-orange {
+        background-color: #cc851c;
+        color: #fff;
+      }
+      .theme-background-green {
+        background-color: #8ab042;
+        color: #fff;
+      }
+      .theme-background-grey {
+        background-color: #666666;
+        color: #fff;
+      }
+      .theme-background-white {
+        background-color: #fff;
+        color: #4c4c4c;
+      }
+      .donate-bar {
+        padding: 32px 23px 28px;
+      }
+      .donate-bar > div:first-child {
+        font-family: 'Roboto Condensed', sans-serif;
+        font-weight: bold;
+        border-right: 1px dotted #2a4f76;
+        margin-top: 19px;
+        font-size: 25px;
+        padding: 0;
+      }
+      .donate-buttons>li>a {
+        font-size: 17px;
+        font-family: 'Roboto Condensed', sans-serif;
+        font-weight: bold;
+        position: relative;
+        display: block;
+        padding: 10px 3px;
+        border-radius: 5px;
+      }
+      .btn-blue-other,
+      .btn-blue {
+        font-family: 'Roboto Condensed', sans-serif;
+        font-weight: bold;
+        background-color: #427bb8;
+        color: #fff;
+        border-radius: 5px;
+        border: 0;
+        padding: 0;
+        width: 75px;
+        height: 37px;
+        margin-top: 8px;
+      }
+      .btn-green {
+        font-family: 'Roboto Condensed', sans-serif;
+        font-weight: bold;
+        background-color: #8ab042;
+        color: #fff;
+        border-radius: 5px;
+        border: 0;
+        padding: 0;
+        width: 114px;
+        height: 37px;
+        margin-top: 8px;
+      }
+      #other-input {
+        display: none;
+      }
+      #other-input input {
+        position: relative;
+        font-weight: bold;
+        background-color: #fff;
+        color: #427bb8;
+        border-radius: 5px;
+        border: 0;
+        border: 5px solid #427bb8;
+        padding: 0 0 3px 15px;
+        width: 75px;
+        height: 37px;
+        margin: 18px 3px 0;
+      }
+      input[type=number]::-webkit-inner-spin-button, 
+      input[type=number]::-webkit-outer-spin-button { 
+      -webkit-appearance: none; 
+       margin: 0; 
+      }
+      #other-input span {
+        font-family: inherit;
+        font-weight:bold;
+        color: #427bb8;
+        position: absolute;
+        padding: 23px 12px;
+        z-index: 10;
+        pointer-events: none;
+      }
+      .impact {
+        font-size: 1.1em;
+        font-weight: bold;
+        clear: both;
+      }
+      .nav>li>a:hover, .nav>li>a:focus {
+        text-decoration: none;
+        background-color: transparent;
+      }
+      .donate-buttons .active {
+        background-color: #fff;
+        border: 5px solid #427bb8;
+        color: #427bb8;
+      }
+      .donate-buttons:focus {
+      outline: -webkit-focus-ring-color auto 0px;
+      }
+      .donate-buttons li:last-child {
+        font-size: 17px;
+        line-height: 37px;
+        padding-left: 20px;
+        padding-top: 15px;
+      }
+.radio-group {
+    position: relative;
+    margin-bottom: 25px
+}
+
+.radio {
+    display: inline-block;
+    width: 204;
+    height: 104;
+    border-radius: 0;
+    background: lightblue;
+    box-shadow: 0 2px 2px 2px rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 8px 2px
+}
+
+.radio:hover {
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.3)
+}
+
+.radio.selected {
+    box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.1)
+}
+
+.fit-image {
+    width: 100%;
+    object-fit: cover
 }
