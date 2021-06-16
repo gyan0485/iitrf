@@ -124,6 +124,3 @@ $(document).ready(function(){
   }, false);
 })();
 
-$("#showForm").change(function() {
-   $("#duties").toggle();
-});
